@@ -1,3 +1,20 @@
-.body{
+body{
     padding: 0;
+    color: dimgray;
+    border: 1px;
 }
+h1{
+    background-color: rgb(53, 19, 247);
+    text-align: center;
+    text-decoration: aliceblue;
+    color: aqua;
+}
+ul >li{
+  list-style-type: none;
+  margin: 0;
+  padding: 3;
+  display: inline-block;
+  background-color: aqua;
+  
+}
+
