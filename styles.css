@@ -1,127 +1,47 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
+body{
+ background-image: url('https://s3-alpha-sig.figma.com/img/18c9/98f1/9f5712b97686209bd114fa7086413bd4?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H6FIkr-dN2OTvcIwA0d5gFVJCB5UEr1lQsFp16mjUsHAc6R-Fw~3nPaqXSLTho57bjBPwamsbX8odRjkPOBywF~JgBYPo0cdEyUTpIrAb7OoQjGQpGUz2dqGjVVqf~1sB313LugeXgPRJBSP~Bs6rFn8nEqPX04996vRd~9jUtRvhZBOHxPQxAGDxHkSM0EdyBDjiV0e17hnUGhi-MPndflYqRvsHnOgkDjUgrfyUv4qHELZaBABQp5IlMUguJe2DXiqzJK-hYaEcKLp1Rz69V3nE4ecaCCNWQB-NkNtCZnH~oMFYH3KxgpHSkNp6CNki7bzOEniQeidhzU3Z2FB5A__'); 
+ 
 }
-header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../aa.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	min-height: 100px;
+.wrapper{
+	Width :684px;
+	Height :454px;
+	Top : 170px;
+	Left : 65px;
+	Gap :24px;
 }
-ul{
-	float:right;
-	list-style-type: none;
-	margin-top: 30px;
-	margin-right:60px ;
-}
-ul li{
-	display: inline-block;
-}
-ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-	border: 1px solid transparent;
-	transition: 0.5s ease;
+.content{
+	display: contents;
 
 }
-
-ul li a:hover{
-	background-color: #fff;
-	color: #000;
+.judul{
+	width: 684px;
+	height: 212px;
+	color: #ffff;
 }
-
-ul li.active a{
-background-color:#fff;
-	color: #000;
-
-}
-
-.logo img{
-	float: left;
-	width: 150px;
-	height: auto;
-}
-
-.main{
-	max-width: 1200px;
-	margin: auto;
-}
-
 .title{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
-.title h1{
-	color: #fff;
+	padding-top: 200px;
 	font-size: 85px;
 }
-
-.button{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+.content-card{
+  display: block;
+  padding: 0;
+  margin: 0; 
+  
 }
-
-.btn{
-	border: 1px solid #fff;
-	padding: 5px 20px;
-	color: #fff;
-	transition: 0.6s ease;
-	font-size: 18px;
-	text-decoration: none;
+.card{
+	display: inline-block;
+	width: 412px;
+	height: 232px;
+	border-radius: 15px;
+	margin-left: 20px;
+	padding: 15px;
+	background-color: #2c2b2b; 
 }
-
-.btn:hover{
-	background-color: #fff;
-	color: #000;
-}
-
-.sub-menu{
-	display: none;
-    top:6%;
-    position: relative;
-}
-
-.sub-menu ul{
-	position: absolute;
-
-}
-
-.main ul li:hover .sub-menu
-{
-	display: block;
-	position: absolute;
-	background-color: rgb(0,45,117);
-	margin-top: 12px;
-	margin-left: -8px;
-}
-
-.main ul li:hover .sub-menu ul 
-{
-	display: block;
-	margin:6px;
-
-}
-.main ul li:hover .sub-menu ul li
-{
-	width: 75px;
-	padding: 5px;
-	border-bottom: 1px#fff;
-	background: transparent;
-	transition: 0.4s ease;
-	text-align: left;
-	border-radius: 0;
+h4{
 	
 }
 
-.main ul li:hover .sub-menu ul li:last-child 
-{
-	border-bottom: none;
+*{
+	margin: 0;
+	padding: 0;
 }
