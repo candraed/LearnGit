@@ -17,15 +17,32 @@ body{
 	width: 684px;
 	height: 212px;
 	color: #ffff;
+	margin-left: 10%;
 }
 .title{
 	padding-top: 200px;
-	font-size: 85px;
+	font-size-adjust: inherit;
+}
+.isi{
+	padding-top: 10%;
+	margin-left: 10%;
+}
+.but{
+	margin-left: 10%;
+	margin-top: 5%;
+}
+.but button{
+	width: 8vh;
+	height: 5vh;
+	border-radius: 5px;
+	box-shadow: purple;
+	color: aqua;
+	background-color: brown;
 }
 .content-card{
   display: block;
   padding: 0;
-  margin: 0; 
+  margin: 5vh; 
   
 }
 .card{
@@ -34,6 +51,7 @@ body{
 	height: 232px;
 	border-radius: 15px;
 	margin-left: 20px;
+	margin-top: 3vh;
 	padding: 15px;
 	background-color: #2c2b2b; 
 }
@@ -45,3 +63,4 @@ h4{
 	margin: 0;
 	padding: 0;
 }
+/* Login */
